@@ -28,9 +28,4 @@ test/dist/*
 .coveralls.yml
 .sass-cache
 
-dist/*
-es5/*
-
 .idea/
-
-core.js
