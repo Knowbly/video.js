@@ -23590,6 +23590,7 @@ function (_Component) {
     var controlBar = this.getChild('controlBar');
 
     if (controlBar) {
+      this.player().cache_.inactivityTimeout = this.player().options_.inactivityTimeout;
       controlBar.on('mouseenter', function (event) {
         this.player().cache_.inactivityTimeout = this.player().options_.inactivityTimeout;
         this.player().options_.inactivityTimeout = 0;
